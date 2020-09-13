@@ -1,0 +1,38 @@
+* {
+    font-family: "lato", sans-serif;
+    font-weight: bold;
+}
+.container {
+    display: block;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 5%;
+    background-color: aqua;
+}
+
+body {
+    background-color: rgb(36, 36, 33);
+    margin-top: 50px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+#add{
+    margin-left: 10px;
+}
+#remove{
+    margin-top: 10px;
+}
+button {
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+  }
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
